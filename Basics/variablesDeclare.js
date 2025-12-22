@@ -1,13 +1,21 @@
-const accountId = 144553
-let accouctEmaile = "Regno@gmail.com"
-var accountPassword="12345"
-accountCity = "Jaipur"
+//premitive type
+//string
+let x = "Rahul"
+console.log(x);
+console.log(typeof(x));
+//number
+let y=1;
+console.log(y);
+console.log(typeof(y));
+//boolean
+let p=true;
+console.log(p);
+console.log(typeof(p));
 
-// accountId =2
-console.table([accouctEmaile, accountId ,accountPassword,accountCity])
+//undefined
+let a;
+console.log(a);
+console.log(typeof(a));
 
-accouctEmaile = "Rahul@1234.com"
-accountPassword = "4321"
-accountCity = "Mumbai"
 
-console.table([accouctEmaile, accountId ,accountPassword,accountCity])
+
