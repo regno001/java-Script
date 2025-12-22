@@ -1,8 +1,10 @@
 //premitive type
+//js is a dynamic  language
 //string
 let x = "Rahul"
 console.log(x);
 console.log(typeof(x));
+
 //number
 let y=1;
 console.log(y);
@@ -16,6 +18,7 @@ console.log(typeof(p));
 let a;
 console.log(a);
 console.log(typeof(a));
+
 
 
 
