@@ -20,7 +20,18 @@ function multiply(a,b){
 function divide(a,b){
   console.log('dividing '+a/b);
 }
+//arrow //mordernjs 
+const sum =(a,b)=>{
+console.log(a+b);
+}
+const multi=(a,b)=>{
+  console.log("multiply "+a*b);
+  
+}
 
+
+multi(2,4)
+sum(3,4);
 addition(2,3);
 minus(7,3);
 multiply(4,5);
