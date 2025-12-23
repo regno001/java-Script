@@ -52,10 +52,10 @@ const countinGVowel=(str)=>{
   console.log(count);
 }
 countinGVowel("anksuh");
-// printHeloo();
-// multi(2,4);
-// sum(3,4);
-// addition(2,3);
-// minus(7,3);
-// multiply(4,5);
-// divide(10,2);
+printHeloo();
+multi(2,4);
+sum(3,4);
+addition(2,3);
+minus(7,3);
+multiply(4,5);
+divide(10,2);

@@ -61,3 +61,33 @@ console.log(odd);
  })
 
  console.log(output);
+
+ const bigger = numbers.reduce((res,curr)=>{
+  return res > curr ? res : curr;
+ });
+ console.log(bigger);
+ //practice questions 
+ let marks=[50,60,92,80,95];
+
+ let Top= marks.filter((val)=>{
+  return val >=90;
+ });
+ console.log(Top);
+
+let no = 10;
+
+let Numarr =[];
+for (let index = 1; index <=no ; index++) {
+Numarr[index-1]=index;
+}
+console.log(Numarr);
+let sumof=Numarr.reduce((res,curr)=>{
+  return res+curr;
+});
+
+console.log(sumof);
+
+let productOf=Numarr.reduce((res,curr)=>{
+  return res*curr;
+})
+console.log(productOf);
